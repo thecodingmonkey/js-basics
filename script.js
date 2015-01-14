@@ -25,7 +25,7 @@ function greet(name)  {
  * if it should be true if your person object is at least 16 years old
  */
 
-var canDrive = (person.age >= 16)
+var canDrive = (person.age >= 16);
 
 /* Create an array called `dataTypes` with atleast 1 of every data type;
  * (there are 6 different data types);
@@ -46,6 +46,6 @@ dataTypes[5] = person;
 
 var Dog = new Object();
 
-Dog.bark = new function() {console.log('woof!');}
+Dog.bark = new function() {console.log('woof!');};
 Dog.name = 'Fido';
 
